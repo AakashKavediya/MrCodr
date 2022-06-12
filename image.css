@@ -1,0 +1,77 @@
+.image img {
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 3px solid #ededed;
+}
+
+.image {
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: scroll;
+}
+
+main header {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+@media(max-width:590px) {
+    .image img {
+        height: 210px;
+    }
+    .image {
+        width: 95%;
+    }
+    aside {
+        height: 100vh;
+    }
+}
+
+@media(max-width:900px) {
+    nav h2 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:750px) {
+    main {
+        width: 60%;
+    }
+    nav {
+        width: 20.5%;
+    }
+}
+
+@media(max-width:700px) {
+    main {
+        width: 80%;
+    }
+    nav {
+        width: 80%;
+        float: none;
+        margin-left: 67px;
+    }
+}
+
+article {
+    padding-bottom: 0px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+
+/* ==============HOVER------------------ */
+
+aside ul li {
+    border-left: 5px;
+}
+
+aside ul li a:hover {
+    color: white;
+}
