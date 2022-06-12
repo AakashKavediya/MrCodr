@@ -29,6 +29,10 @@ main header {
     aside {
         height: 100vh;
     }
+    nav {
+        float: right;
+        position: absolute;
+    }
 }
 
 @media(max-width:900px) {
