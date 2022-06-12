@@ -210,10 +210,6 @@ article h2 {
     border-bottom: 7px solid whitesmoke;
 }
 
-::-webkit-scrollbar {
-    width: 1px;
-}
-
 #image {
     display: flex;
     flex-wrap: wrap;

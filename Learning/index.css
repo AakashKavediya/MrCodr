@@ -206,16 +206,22 @@ aside ul li:hover {
 
 /* ======================================================================= */
 
-article h2 {
-    border-bottom: 7px solid whitesmoke;
-}
-
-::-webkit-scrollbar {
-    width: 1px;
+article h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 article .home a {
     color: Cyan;
     text-decoration: none;
     font-size: 20px;
+    /* margin-top: 80px; */
+    /* padding: 10px; */
+}
+
+article .home ul li {
+    padding: 10px;
+    padding-top: 5px;
+    list-style: none;
 }
