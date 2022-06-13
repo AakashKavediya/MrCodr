@@ -33,6 +33,10 @@ main header {
         float: right;
         position: absolute;
     }
+    html {
+        height: 10vh;
+        overflow-y: scroll;
+    }
 }
 
 @media(max-width:900px) {
@@ -67,6 +71,10 @@ article {
 
 footer {
     margin-top: 20px;
+}
+
+aside {
+    position: fixed;
 }
 
 
