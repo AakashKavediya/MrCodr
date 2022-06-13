@@ -207,10 +207,6 @@ aside ul li:hover {
 
 /* ==================================================================== */
 
-::-webkit-scrollbar {
-    width: 1px;
-}
-
 main ol li span {
     color: red;
     font-weight: 600;
